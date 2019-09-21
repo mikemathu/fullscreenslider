@@ -1,0 +1,66 @@
+.overlay {
+	background-color: #008cba;
+	position: absolute;
+	transition:all .3s ease;
+	opacity: 0.9;
+}
+.overlayLeft{
+	background-color:#000000;
+    height: 100%;
+    top:0;
+	left:0;
+	width: 100%;
+	display:block;
+	transition:0.5s;
+	opacity:0.7;
+}
+.img{
+	height: 19rem;
+	padding-bottom: 100px;
+}
+.content{
+	padding-bottom: 150px;
+}
+.content h5{
+	padding: 20px 0px 2px;
+	letter-spacing:0.2rem;
+	text-transform:uppercase;
+	color: darkgrey;
+}
+.content h1{
+	letter-spacing:0.3rem;
+	font-size:3.5rem;
+	padding: 10px 0px 10px 0px;
+}
+.content p{
+	letter-spacing: 0.4rem;
+	word-spacing: 0.1rem;
+	color: darkgrey;
+}
+span{
+	color: rgb(235, 157, 12);
+}
+.index-hr{
+	margin-top: 2px;
+	background-color: darkgray;
+	width: 5%;
+	
+}
+.sub-content h5,p{
+	color: darkgrey;
+}
+.footer-img{
+padding-top: 30px;
+}
+.index-btn{
+	color:darkgray;
+	border:darkgrey 1px solid;
+	padding:0px 20px;
+	border-radius:10px;
+	margin:0px 0px 10px 0px;
+}
+.index-btn:hover{
+	background:darkgrey;
+	color:#fff;
+	transition:500ms ease;
+}
